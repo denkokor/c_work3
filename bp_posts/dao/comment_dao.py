@@ -1,0 +1,2 @@
+class CommentDAO:
+    pass
