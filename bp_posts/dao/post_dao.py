@@ -22,7 +22,6 @@ class PostDAO:
     def _load_posts(self):
 
         posts_data = self._load_data()
-
         list_of_posts = [Post(**post_data) for post_data in posts_data]
         return list_of_posts
 

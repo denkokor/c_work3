@@ -1,9 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d5beac8-6f71-46d3-93ec-794bdb368a60" name="Changes" comment="Контрольная">
+    <list default="true" id="3d5beac8-6f71-46d3-93ec-794bdb368a60" name="Changes" comment="Control_work">
+      <change afterPath="$PROJECT_DIR$/bp_api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bp_api/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bp_api/tests/api_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bp_api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bp_api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bp_posts/dao/comment.py" beforeDir="false" afterPath="$PROJECT_DIR$/bp_posts/dao/comment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bp_posts/dao/comment_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/bp_posts/dao/comment_dao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bp_posts/dao/post.py" beforeDir="false" afterPath="$PROJECT_DIR$/bp_posts/dao/post.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bp_posts/dao/post_dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/bp_posts/dao/post_dao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bp_posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bp_posts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger.py" beforeDir="false" afterPath="$PROJECT_DIR$/logger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/bookmarks.html" beforeDir="false" afterPath="$PROJECT_DIR$/bp_posts/templates/bookmarks.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/bp_posts/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/bp_posts/templates/posts_single.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/bp_posts/templates/search.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/tag.html" beforeDir="false" afterPath="$PROJECT_DIR$/bp_posts/templates/tag.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/user-feed.html" beforeDir="false" afterPath="$PROJECT_DIR$/bp_posts/templates/user-feed.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,19 +49,21 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dekok\PycharmProjects\coursework2_source\c_work3\bp_api\tests" />
+      <recent name="C:\Users\dekok\PycharmProjects\coursework2_source\c_work3\bp_posts" />
       <recent name="C:\Users\dekok\PycharmProjects\coursework2_source\c_work3\bp_posts\tests\.pytest_cache\v" />
       <recent name="C:\Users\dekok\PycharmProjects\coursework2_source\c_work3\bp_posts\tests\.pytest_cache" />
       <recent name="C:\Users\dekok\PycharmProjects\coursework2_source\c_work3\static" />
-      <recent name="C:\Users\dekok\PycharmProjects\coursework2_source\c_work3\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for post_dao_test.TestPostsDAO.test_foo">
-    <configuration name="post" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="logger" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="c_work3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -51,11 +71,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bp_posts/dao" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bp_posts/dao/post.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/logger.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -64,7 +84,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="post_dao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="c_work3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -72,11 +92,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bp_posts/dao" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bp_posts/dao/post_dao.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -85,25 +105,69 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for post_dao_test.TestPostsDAO.test_foo" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="views (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="c_work3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bp_api" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bp_api/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="views" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="c_work3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bp_posts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/bp_posts/views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for api_test.TestApi" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="c_work3" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bp_posts/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/bp_api/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;post_dao_test.TestPostsDAO.test_foo&quot;" />
+      <option name="_new_target" value="&quot;api_test.TestApi&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for post_dao_test.TestPostsDAO.test_foo" />
-        <item itemvalue="Python.post_dao" />
-        <item itemvalue="Python.post" />
+        <item itemvalue="Python.main" />
+        <item itemvalue="Python tests.Python tests for api_test.TestApi" />
+        <item itemvalue="Python.logger" />
+        <item itemvalue="Python.views (1)" />
+        <item itemvalue="Python.views" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659013661981</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Control_work">
+      <created>1659078538440</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1659078538440</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -183,6 +254,7 @@
     <MESSAGE value="Control work" />
     <MESSAGE value="control" />
     <MESSAGE value="Контрольная" />
-    <option name="LAST_COMMIT_MESSAGE" value="Контрольная" />
+    <MESSAGE value="Control_work" />
+    <option name="LAST_COMMIT_MESSAGE" value="Control_work" />
   </component>
 </project>
